@@ -9,13 +9,14 @@ export function Footer() {
         <div>
           <Link href="/" className="flex items-center gap-2 mb-4">
             <Stethoscope className="h-6 w-6 text-emerald-500" />
-            <span className="font-bold text-xl text-white">FisioHome</span>
+            <span className="font-bold text-xl text-white">fisio Dani</span>
           </Link>
           <p className="text-sm text-gray-400">
-            Cuidado e reabilitação no conforto da sua casa.
+            Daniela dos Santos Piffer Messaggi
           </p>
+          <p className="text-sm text-gray-400">crefit3/41309-f</p>
           <p className="text-sm text-gray-400 mt-2">
-            Atendimento em [Nome da Cidade/Região]
+            Atendimento na zona metropolitana de São Paulo
           </p>
         </div>
 
@@ -24,6 +25,9 @@ export function Footer() {
           <nav className="flex flex-col gap-2">
             <Link href="#inicio" className="text-sm hover:text-emerald-400 transition-colors">
               Início
+            </Link>
+            <Link href="#sobre-mim" className='text-sm hover:text-emerald-400 transition-colors'>
+              Sobre mim
             </Link>
             <Link href="#servicos" className="text-sm hover:text-emerald-400 transition-colors">
               Serviços
@@ -35,24 +39,49 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="font-semibold text-white mb-4">Siga-nos</h4>
-          <div className="flex gap-4">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400">
-              <Instagram className="h-6 w-6" />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400">
-              <Facebook className="h-6 w-6" />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400">
-              <Linkedin className="h-6 w-6" />
-            </a>
-          </div>
-        </div>
+  <h4 className="font-semibold text-white mb-4">Acompanhe minhas redes</h4>
+  <div className="flex gap-4">
+    
+    {/* Instagram */}
+    <a 
+      href="https://www.instagram.com/messaggidaniela/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-gray-400 hover:text-emerald-400"
+      aria-label="Instagram"
+    >
+      <Instagram className="h-6 w-6" /> 
+    </a>
+    
+    {/* Facebook */}
+    <a 
+      href="https://www.instagram.com/messaggidaniela/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-gray-400 hover:text-emerald-400"
+      aria-label="Facebook"
+    >
+      <Facebook className="h-6 w-6" />
+    </a>
+    
+    {/* LinkedIn */}
+    <a 
+      href="https://www.instagram.com/messaggidaniela/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-gray-400 hover:text-emerald-400"
+      aria-label="LinkedIn"
+    >
+      <Linkedin className="h-6 w-6" />
+    </a>
+
+  </div>
+</div>
       </div>
 
       <div className="container mx-auto max-w-7xl px-4 mt-8 pt-8 border-t border-gray-700 text-center">
         <p className="text-sm text-gray-500">
-          © {new Date().getFullYear()} FisioHome. Todos os direitos reservados.
+          © {new Date().getFullYear()} Fisio Dani. Todos os direitos reservados.
         </p>
       </div>
     </footer>

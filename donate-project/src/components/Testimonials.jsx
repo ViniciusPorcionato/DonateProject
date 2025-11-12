@@ -3,16 +3,16 @@ import { Star } from 'lucide-react'
 
 const testimonialsList = [
   {
-    name: 'Maria S.',
-    feedback: 'O atendimento em casa foi um divisor de águas na minha recuperação. Profissionalismo e cuidado nota 10!',
+    name: 'Roberto C.',
+    feedback: 'Fui atendido pela Daniela após a COVID-19. O trabalho dela em Fisioterapia Respiratória foi a chave para eu recuperar minha capacidade pulmonar rapidamente. Profissionalismo e atenção nota 10!',
   },
   {
-    name: 'João P.',
-    feedback: 'Depois da cirurgia, achei que demoraria a andar. A fisioterapia domiciliar acelerou muito meu progresso.',
+    name: 'Sra. Júlia',
+    feedback: 'A Fisioterapeuta Daniela nos apoiou nos Cuidados Paliativos do meu pai. O conforto e o foco na qualidade de vida que ela trouxe foi inestimável para a família. Somos muito gratos.',
   },
   {
-    name: 'Ana L.',
-    feedback: 'Minha mãe (idosa) está muito mais confiante e com menos dores. Recomendo de olhos fechados!',
+    name: 'Carla M.',
+    feedback: 'Graças à Daniela, a reabilitação da Oncologia foi muito mais suave. Ela personalizou meu tratamento para a fadiga e me deu a confiança necessária para retomar minhas atividades.',
   },
 ]
 
@@ -22,10 +22,10 @@ export function Testimonials() {
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            O que nossos pacientes dizem
+            O que meus pacientes dizem
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Feedbacks reais de pessoas que transformaram suas vidas.
+            Feedbacks reais de pessoas que melhoraram sua qualidade de vida.
           </p>
         </div>
 

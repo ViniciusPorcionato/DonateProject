@@ -1,26 +1,27 @@
+
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
-import { HeartPulse, Bone, Users, ShieldCheck } from 'lucide-react'
+import { HeartPulse, Wind, Users, Stethoscope } from 'lucide-react'
 
 const servicesList = [
   {
-    icon: <Bone className="h-8 w-8 text-emerald-600" />,
-    title: 'Fisioterapia Ortopédica',
-    description: 'Tratamento de lesões musculares, fraturas, pós-cirúrgicos e dores na coluna.',
+    icon: <Wind className="h-8 w-8 text-emerald-600" />,
+    title: 'Fisioterapia Respiratória',
+    description: 'Técnicas para otimizar a função pulmonar, essenciais para quadros de DPOC, asma e recuperação pós-COVID.',
   },
   {
     icon: <Users className="h-8 w-8 text-emerald-600" />,
-    title: 'Fisioterapia Geriátrica',
-    description: 'Foco na manutenção da mobilidade, prevenção de quedas e qualidade de vida para idosos.',
+    title: 'Cuidados Paliativos',
+    description: 'Foco no alívio do sofrimento e melhoria da qualidade de vida de pacientes e famílias que enfrentam doenças graves.',
+  },
+  {
+    icon: <Stethoscope className="h-8 w-8 text-emerald-600" />,
+    title: 'Oncologia',
+    description: 'Reabilitação pré e pós-tratamento oncológico, ajudando a minimizar efeitos colaterais como fadiga, dor e linfedema.',
   },
   {
     icon: <HeartPulse className="h-8 w-8 text-emerald-600" />,
-    title: 'Recuperação Neurológica',
-    description: 'Reabilitação para pacientes pós-AVC, com Parkinson, Esclerose Múltipla e outras condições.',
-  },
-  {
-    icon: <ShieldCheck className="h-8 w-8 text-emerald-600" />,
-    title: 'Prevenção de Lesões',
-    description: 'Avaliação e criação de programas de exercícios para prevenir futuras lesões e dores.',
+    title: 'Fisioterapia Cardiovascular',
+    description: 'Programas de reabilitação cardíaca, visando a melhoria da capacidade funcional e prevenção de novos eventos.',
   },
 ]
 
@@ -30,10 +31,10 @@ export function Services() {
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Nossos Tratamentos
+            Minhas especialidades
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Oferecemos uma gama completa de serviços de fisioterapia para atender suas necessidades específicas.
+            Ofereço um amplo conhecimento no atendimento para as seguintes necessidades de atendimento
           </p>
         </div>
 

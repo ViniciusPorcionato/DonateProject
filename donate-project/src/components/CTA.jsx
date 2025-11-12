@@ -12,7 +12,7 @@ export function CTA() {
         </p>
         <div className="mt-8">
           <Button size="lg" variant="secondary" asChild>
-            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5511982295463" target="_blank" rel="noopener noreferrer">
               Fale Conosco Agora
             </a>
           </Button>

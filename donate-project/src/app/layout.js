@@ -6,7 +6,7 @@ import { Footer } from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'FisioHome - Fisioterapia Domiciliar',
+  title: 'Fisio Dani - Fisioterapia Domiciliar',
   description: 'Cuidado e reabilitação no conforto da sua casa.',
 }
 
